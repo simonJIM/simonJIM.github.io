@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Iot4Climate</title>
 </head>
 
@@ -12,7 +13,7 @@
 
     <div class="container1">
         <h1>Iot4Climate</h1>
-        <p>slogan</p>
+        <p>Protecting the Planet, One Project at a Time</p>
     </div>
 
     <nav>
@@ -23,21 +24,31 @@
             <li><a href="#section4">Contact</a></li>
           </ul>
     </nav>
-    <div class =sections>
+
         <section id = "section1">
             <h2>About us</h2>
-            <p>We are 2 students who developping a startup company that will devise and offer IoT solutions that can slow down climate change. </p>
-            <p></p>
-            <img>
+            <div class = "content_sections">
+                <p>We are 2 students who are developping a startup company that will devise and offer IoT solutions that can slow down climate change.
+                    Developing technology to slow down climate change is a crucial and challenging mission, but it's also a rewarding one with the potential for significant positive impact. </p>
+
+                <img src = "/resources/images/green eye.jpg" class = "round_image" class = "section_images">
+            </div>
+            
         </section>
     
         <section id = "section2">
             <h3>About climate change</h3>
-            <p>Climate change is a long-term change in the average weather patterns that have come to define Earth’s local, regional and global climates. These changes have a broad range of observed effects that are synonymous with the term.</p>
-            <p></p>
-            <img>
+            <div class = "content_sections">
+                <p>Climate change refers to the long-term alteration of Earth's climate patterns primarily driven by human activities, particularly the emission of greenhouse gases, such as carbon dioxide and methane. The consequences of climate change are far-reaching, including global warming with rising temperatures, melting ice caps and rising sea levels, a heightened frequency of extreme weather events, ocean acidification, disruption of ecosystems and biodiversity, water scarcity, impacts on agriculture and food security, adverse health effects, economic losses, and even migration and conflict, making it one of the most pressing global challenges threatening our environment, economies, and societies.</p>
+                <img src="resources/images/earth.jpg" id = "img_earth">
+            </div>
         </section>
     
+
+
+
+
+
         <section class="news-container" id = "section3">
             <div class = "news_item">
                 <div class = "content_title"> Eerste nieuws</div>
@@ -51,23 +62,66 @@
                 <div class = "content_title"> Derde nieuws</div>
                 <p>Lorem ipsum dolor sit amet. Qui delectus maiores aut eius voluptatibus eos necessitatibus officiis qui quam necessitatibus ut nesciunt dicta ut odit accusantium. 33 ipsum voluptas ut dolores dicta sit atque fugiat ut maiores quasi aut vitae placeat et reiciendis eveniet est distinctio numquam.</p>
             </div>
-
         </section>
-
+    
         <section id = "section4">
-            <h5>Contact</h5>
-            <p></p>
-            <p></p>
-            <img>
+            <div class = "contact_content" id = "contact_content_left">
+                <p class = "greentext" id = "Iot4Climate">Iot4Climate</p>
+
+                <div class="contact-info">
+                    <p>Xavarianenstraat 10 8000 Brugge</p> <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-info">
+                    <p>info@Iot4Climate.be</p> <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <p>+320 50 35 17</p> <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-info">
+                    <p>www.Iot4Climate.be</p> <i class="fa-solid fa-globe"></i>
+                </div>        
+                
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <div class = "contact_content">
+                <p class = "greentext">Neem contact op</p>
+                <form>
+                    <div class="contact-input">
+                        <div class="icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" class="input-field" placeholder="Naam">
+                    </div>
+                    <div class="contact-input">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="email" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="contact-input">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="tel" class="input-field" placeholder="telefoon">
+                    </div>
+
+                    <div class = "contact-input">
+                        <textarea name="message" rows = "7" placeholder = "Uw bericht..."></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit" class = "btn">
+                </form>
+            </div>
         </section>
     </div>
-    
-
-    
-
     <footer>
         <p>Author: Simon Haesaert</p>
     </footer>
     </div>
+
 </body>
 </html>
